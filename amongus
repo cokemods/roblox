@@ -1,0 +1,16 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("PolishDuck Arsenal Hub", "Synapse")
+
+local Tab = Window:NewTab("Hubs")
+local Hubs = Tab:NewSection("Hubs")
+Hubs:NewButton("AimWare", "Locks on to other peoples heads", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Wheeleee/AIMWARE/main/Startup'))()
+end)
+
+Hubs:NewButton("OwlHub", "Locks on to other peoples heads", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt'))()
+end)
+
+Hubs:NewButton("ESP", "ESP Stuff", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
+end)
